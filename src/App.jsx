@@ -1,6 +1,7 @@
 import './App.css'
 import Header from './Componentes/header.jsx'
-import Home1 from './Componentes/home1.jsx'
+import Apresentacao from './Componentes/apresentacao.jsx'
+import Topicos from './Componentes/topicos.jsx'
 
 function App() {
   
@@ -8,8 +9,8 @@ function App() {
   return (
     <main>
         <Header />
-        <Home1 />
-
+        <Apresentacao />
+        <Topicos />
 
 
       

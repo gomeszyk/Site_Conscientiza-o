@@ -1,0 +1,404 @@
+.topicos {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 75px 97px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 69px;
+    background: #FFF;
+}
+
+.topicos_textos {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.topicos_texto1 {
+    width: 674px;
+}
+
+.topicos_h2 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.topicos_texto2 {
+    width: 674px;
+}
+
+.topicos_p {
+    color: #000;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.topicos_cards {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 37px;
+}
+
+.card1_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.topicos_card1 {
+    display: flex;
+    width: 639.5px;
+    height: 478px;
+    padding: 49px 34px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #F2A900;
+}
+
+.number1 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card1_h3 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card1_p1 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card_borda {
+    align-self: stretch;
+    border-top: 1px solid #000;
+    margin-top: 20px;
+
+}
+
+.card_marco {
+    align-self: stretch;
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.card1_p2 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card1_link {
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card1_a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card1_a:hover {
+    transition: all 0.3s ease-in-out;
+    color: #FFF;
+}
+
+
+.topicos_card2 {
+    display: flex;
+    width: 639.5px;
+    height: 478px;
+    padding: 49px 34px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #4FB3E8;
+}
+
+.card2_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.number2 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card2_h3 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card2_p1 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card2_p2 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card2_link {
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card2_a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card2_a:hover {
+    transition: all 0.3s ease-in-out;
+    color: #FFF;
+}
+
+.topicos_cardsbaixo {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 37px;
+}
+
+.topicos_card3 {
+    display: flex;
+    width: 639.5px;
+    height: 478px;
+    padding: 49px 34px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #A56BD9;
+}
+
+.card3_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.number3 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card3_h3 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card3_p1 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card3_p2 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card3_link {
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card3_a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card3_a:hover {
+    transition: all 0.3s ease-in-out;
+    color: #FFF;
+}
+
+.topicos_card4 {
+    display: flex;
+    width: 639.5px;
+    height: 478px;
+    padding: 49px 34px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #2FBF9B;
+}
+
+.card4_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.number4 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card4_h3 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card4_p1 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card4_p2 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card4_link {
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card4_a {
+    text-decoration: none;
+    color: #000;
+}
+
+.card4_a:hover {
+    transition: all 0.3s ease-in-out;
+    color: #FFF;
+}
+
+

@@ -1,8 +1,8 @@
-import Styles from './css/home1.module.css'
+import Styles from './css/apresentacao.module.css'
 import Home from '../assets/img/img_home.png'
-function Home1() {
+function Apresentacao() {
     return (
-        <section className={Styles.home1}>
+        <section className={Styles.apresentacao}>
 
             <div className={Styles.home1fundo}>
                 <div className={Styles.home1text}>
@@ -45,4 +45,4 @@ function Home1() {
     )
 }
 
-export default Home1
+export default Apresentacao
