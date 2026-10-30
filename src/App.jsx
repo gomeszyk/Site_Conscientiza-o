@@ -4,6 +4,7 @@ import Apresentacao from './Componentes/apresentacao.jsx'
 import Topicos from './Componentes/topicos.jsx'
 import Repertorio from './Componentes/repertorio.jsx'
 import ComoAgir from './Componentes/comoagir.jsx'
+import Footer from './Componentes/footer.jsx'
 
 function App() {
 
@@ -16,6 +17,19 @@ function App() {
         <Topicos />
         <Repertorio />
         <ComoAgir />
+
+
+
+
+
+
+
+
+
+
+
+        
+        <Footer />
       
     </main>
 
