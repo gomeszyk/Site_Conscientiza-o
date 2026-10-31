@@ -1,5 +1,5 @@
 import Styles from './css/apresentacao.module.css'
-import Home from '../assets/img/img_home.png'
+import Home from '../../assets/img/img_home.png'
 function Apresentacao() {
     return (
         <section className={Styles.apresentacao}>

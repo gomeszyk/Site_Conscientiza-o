@@ -1,5 +1,5 @@
 import Styles from './css/repertorio.module.css'
-import Repertorios from '../assets/img/Frame 14.png'
+import Repertorios from '../../assets/img/Frame 14.png'
 export default function Repertorio() {
     return (
         <section className={Styles.repertorio}>

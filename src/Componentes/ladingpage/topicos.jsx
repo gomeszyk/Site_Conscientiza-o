@@ -1,5 +1,5 @@
 import Styles from './css/topicos.module.css'
-import Frame from '../assets/img/Frame 22.png'
+import Frame from '../../assets/img/Frame 22.png'
 
 function Topicos() {
     return (
