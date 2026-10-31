@@ -44,7 +44,7 @@
 }
 
 .comoagir_botao:hover {
-    background: rgb(28, 28, 28);
+    background: rgb(255, 255, 255);
     transition: all 0.2s ease-in-out;
     border: 2px solid #000;
 }
@@ -58,5 +58,10 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.comoagir_link:hover{
+    color: #000;
+     transition: all 0.2s ease-in-out;
 }
 
