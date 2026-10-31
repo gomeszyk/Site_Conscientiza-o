@@ -10,7 +10,7 @@
 main {
   position: relative;
   width: 100%;
-  height: 3828px;
+  height: auto;
   margin: auto;
   background-color: aquamarine;
 }

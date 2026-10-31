@@ -1,17 +1,49 @@
 import Styles from './css/footer.module.css'
+import Temas from '../assets/img/temas_footer.png'
+import Disk from '../assets/img/disk_footer.png'
+import Fontes from '../assets/img/fontes_footer.png'
 export default function Footer() {
     return (
         <footer>
-            <div className={Styles.frase}>
-                <h2 className={Styles.frase_h2}>
-                    Sem Medo de Ser
-                </h2>
+            <div className={Styles.footer1}>
+                <div className={Styles.div1}>
+                    <h2 className={Styles.footer_h2}>
+                        Sem Medo de Ser
+                    </h2>
 
-                <p className={Styles.frase_p}>
-                    Quatro lutas, uma só voz.
-                    Entender. Sentir. Agir.
-                </p>
+                    <p className={Styles.footer_p1}>
+                        Quatro lutas, uma só voz.
+                        Entender. Sentir. Agir.
+                    </p>
+                </div>
+
+                <div className={Styles.div2}>
+                    <img src={Temas} alt="temas" className={Styles.temas} />
+                </div>
+
+                <div className={Styles.div3}>
+                    <img src={Disk} alt="disk" className={Styles.disk} />
+                </div>
+
+                <div className={Styles.div4}>
+                    <img src={Fontes} alt="fontes" className={Styles.fontes} />
+                </div>
             </div>
+
+            <div className={Styles.footer2}>
+
+                <p className={Styles.footer_p2}>
+                    Projeto institucional por Gabriel Prado Gomes   PROA   2026 | Dados de Outubro de 2026.
+                </p>
+
+                <a href='#' className={Styles.footer_link}>
+                    ↗ Voltar ao topo
+                </a>
+
+            </div>
+
+
+
         </footer>
     )
 
