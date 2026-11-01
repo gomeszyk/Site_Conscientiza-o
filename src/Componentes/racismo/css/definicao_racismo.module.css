@@ -13,6 +13,7 @@
 
 .definicao_racismo_info {
     display: flex;
+    width: 1513px;
     padding: 63px 97px;
     flex-direction: column;
     justify-content: center;

@@ -1,0 +1,163 @@
+.dados_racismo {
+    display: flex;
+    height: 470px;
+    padding: 63px 97px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: #F2A900;
+}
+
+.dados_racismo_info {
+    display: flex;
+    width: 1513px;
+    height: 370px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33px;
+}
+
+.dados_racismo_h2 {
+    display: flex;
+    padding-right: 19px;
+    align-items: center;
+    align-self: stretch;
+}
+
+.dados_racismo_h2_text {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dados_racismo_numeros {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.populacao_racismo {
+    display: flex;
+    width: 345px;
+    height: 228px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.populacao_racismo_h2 {
+    width: 345px;
+    height: 119px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.populacao_racismo_p1 {
+    width: 345px;
+    height: 79px;
+    color: #000;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.populacao_racismo_fonte {
+    width: 345px;
+    height: 17px;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vitimas_racismo {
+    display: flex;
+    width: 345px;
+    height: 228px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.vitimas_racismo_h2 {
+    width: 343px;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.vitimas_racismo_p1 {
+    width: 345px;
+    color: #000;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vitimas_racismo_fonte {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desigualdade_racismo {
+    display: flex;
+    width: 345px;
+    height: 228px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 17px;
+    justify-content: space-between;
+}
+
+.desigualdade_racismo_h2 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.desigualdade_racismo_p1 {
+    width: 345px;
+    color: #000;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.desigualdade_racismo_fonte {
+    color: rgba(0, 0, 0, 0.70);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
