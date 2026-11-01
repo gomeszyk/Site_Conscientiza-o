@@ -7,6 +7,7 @@ import ComoAgir from './Componentes/ladingpage/comoagir.jsx'
 import Racismo from './Componentes/racismo/racismo.jsx'
 import DefinicaoRacismo from './Componentes/racismo/definicao_racismo.jsx'
 import DadosRacismo from './Componentes/racismo/dados_racismo.jsx'
+import ConsequenciaRacismo from './Componentes/racismo/consequencia_racismo.jsx'
 import Footer from './Componentes/footer.jsx'
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
         <Racismo />
         <DefinicaoRacismo />
         <DadosRacismo />
-
+        <ConsequenciaRacismo />
 
 
 

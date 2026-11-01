@@ -1,0 +1,201 @@
+.consequencia_racismo {
+    display: flex;
+    width: 1513px;
+    height: 838px;
+    padding: 46px 69px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+
+.consequencia_racismo_info {
+    display: flex;
+    width: 1354px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.consequencia_racismo_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 9px;
+    align-self: stretch;
+}
+
+.consequencia_racismo_texto_h2 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.consequencia_racismo_texto_p1 {
+    color: #000;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.consequencia_racismo_cards {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    align-self: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.consequencia_racismo_card1 {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    align-self: stretch;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card_invisibilidade {
+    display: flex;
+    width: 651.5px;
+    height: 229.5px;
+    padding: 45px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    border-radius: 30px;
+    background: #000;
+}
+
+.card_invisibilidade_h2 {
+    width: 484px;
+    flex-shrink: 0;
+    color: #F2A900;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card_invisibilidade_p {
+    width: 484px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card_medo_racismo {
+    display: flex;
+    width: 651.5px;
+    height: 229.5px;
+    padding: 45px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    border-radius: 30px;
+    background: #000;
+}
+
+.card_medo_racismo_h2 {
+    color: #F2A900;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card_medo_racismo_p {
+    color: #FFF;
+    width: 484px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.consequencia_racismo_card2 {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    align-self: stretch;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card_cansaco_racismo {
+    display: flex;
+    width: 651.5px;
+    height: 233px;
+    padding: 45px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    border-radius: 30px;
+    background: #000;
+}
+
+.card_cansaco_racismo_h2 {
+    color: #F2A900;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card_cansaco_racismo_p {
+    width: 484px;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card_orgulho_racismo {
+    display: flex;
+    width: 651.5px;
+    height: 233px;
+    padding: 45px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    border-radius: 30px;
+    background: #000;
+}
+
+.card_orgulho_racismo_h2 {
+    color: #F2A900;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card_orgulho_racismo_p {
+    width: 484px;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
