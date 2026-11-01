@@ -9,6 +9,7 @@ import DefinicaoRacismo from './Componentes/racismo/definicao_racismo.jsx'
 import DadosRacismo from './Componentes/racismo/dados_racismo.jsx'
 import ConsequenciaRacismo from './Componentes/racismo/consequencia_racismo.jsx'
 import LeiRacismo from './Componentes/racismo/lei_racismo.jsx'
+import ComoAgir2 from './Componentes/racismo/comoagir2.jsx'
 import Footer from './Componentes/footer.jsx'
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         <DadosRacismo />
         <ConsequenciaRacismo />
         <LeiRacismo />
-
+        <ComoAgir2 />
 
 
 
