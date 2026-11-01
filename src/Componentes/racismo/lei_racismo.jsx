@@ -73,18 +73,7 @@ export default function LeiRacismo() {
                         </p>
                     </div>
 
-
-
-
-
-
-
                 </div>
-
-
-
-
-
 
             </div>
         </section>

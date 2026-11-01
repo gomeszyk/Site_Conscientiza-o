@@ -14,6 +14,8 @@ import Transfobia from './Componentes/transfobia/transfobia.jsx'
 import DefinicaoTransfobia from './Componentes/transfobia/definacao_transfobia.jsx'
 import DadosTransfobia from './Componentes/transfobia/dados_transfobia.jsx'
 import ConsequenciaTransfobia from './Componentes/transfobia/consequencia_transfobia.jsx'
+import LeiTransfobia from './Componentes/transfobia/lei_transfobia.jsx'
+import ComoAgir3 from './Componentes/transfobia/comoagir3.jsx'
 import Footer from './Componentes/footer.jsx'
 
 function App() {
@@ -38,7 +40,8 @@ function App() {
         <DefinicaoTransfobia />
         <DadosTransfobia />
         <ConsequenciaTransfobia />
-
+        <LeiTransfobia />
+        <ComoAgir3 />
 
 
     </main>
