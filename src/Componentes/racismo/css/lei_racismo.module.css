@@ -1,0 +1,154 @@
+.lei_racismo {
+    display: flex;
+    height: 600px;
+    padding: 69px 116px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-top: 1px solid #000;
+    background-color: #fff;
+}
+
+.lei_racismo_info {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    align-self: stretch;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.lei_racismo_div1 {
+    display: flex;
+    width: 652px;
+    height: 494px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.lei_racismo_div1_h2 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lei_racismo_div1_p1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.lei_racismo_h3 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lei_racismo_p1989 {
+    color: #000;
+    font-family: "Inter";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lei_racismo_div1_p2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.lei_racismo_h4 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lei_racismo_p2023 {
+    color: #000;
+    font-family: "Inter";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lei_racismo_div2 {
+    display: flex;
+    width: 587px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.lei_racismo_div2_h2 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lei_racismo_div2_p1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+    align-self: stretch;
+}
+
+.lei_racismo_h5 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lei_racismo_pler{
+    color: #000;
+    font-family: "Inter";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lei_racismo_div2_p2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.lei_racismo_h6 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}   
+
+
+
