@@ -10,6 +10,9 @@ import DadosRacismo from './Componentes/racismo/dados_racismo.jsx'
 import ConsequenciaRacismo from './Componentes/racismo/consequencia_racismo.jsx'
 import LeiRacismo from './Componentes/racismo/lei_racismo.jsx'
 import ComoAgir2 from './Componentes/racismo/comoagir2.jsx'
+import Transfobia from './Componentes/transfobia/transfobia.jsx'
+import DefinicaoTransfobia from './Componentes/transfobia/definacao_transfobia.jsx'
+import DadosTransfobia from './Componentes/transfobia/dados_transfobia.jsx'
 import Footer from './Componentes/footer.jsx'
 
 function App() {
@@ -29,6 +32,9 @@ function App() {
         <ConsequenciaRacismo />
         <LeiRacismo />
         <ComoAgir2 />
+        <Transfobia />
+        <DefinicaoTransfobia />
+        <DadosTransfobia />
 
 
 

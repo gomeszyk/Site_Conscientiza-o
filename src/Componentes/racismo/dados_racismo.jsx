@@ -58,19 +58,7 @@ export default function DadosRacismo() {
 
                     </div>
 
-
-
-
                 </div>
-
-
-
-
-
-
-
-
-
 
             </div>
         </section>
