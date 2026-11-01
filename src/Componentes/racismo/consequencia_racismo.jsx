@@ -72,17 +72,7 @@ export default function ConsequenciaRacismo() {
                         </div>
                     </div>
 
-
-
-
-
                 </div>
-
-
-
-
-
-
 
             </div>
         </section>

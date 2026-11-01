@@ -13,15 +13,17 @@ import ComoAgir2 from './Componentes/racismo/comoagir2.jsx'
 import Transfobia from './Componentes/transfobia/transfobia.jsx'
 import DefinicaoTransfobia from './Componentes/transfobia/definacao_transfobia.jsx'
 import DadosTransfobia from './Componentes/transfobia/dados_transfobia.jsx'
+import ConsequenciaTransfobia from './Componentes/transfobia/consequencia_transfobia.jsx'
 import Footer from './Componentes/footer.jsx'
 
 function App() {
 
 
   return (
-    
-    <main>
-        <Header />
+    <>
+     <Header />
+     <main>
+       
         <Apresentacao />
         <Topicos />
         <Repertorio />
@@ -35,17 +37,14 @@ function App() {
         <Transfobia />
         <DefinicaoTransfobia />
         <DadosTransfobia />
+        <ConsequenciaTransfobia />
 
 
 
-
-
-
-
-        
-        <Footer />
-      
     </main>
+     <Footer />
+    </>
+   
 
   )
 }
