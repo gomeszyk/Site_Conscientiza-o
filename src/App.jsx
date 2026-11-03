@@ -22,6 +22,7 @@ import DadosMisoginia from './Componentes/misoginia/dados_misoginia.jsx'
 import ConsequenciaMisoginia from './Componentes/misoginia/consequencia_misoginia.jsx'
 import LeiMisoginia from './Componentes/misoginia/lei_misoginia.jsx'
 import ComoAgir4 from './Componentes/misoginia/comoagir4.jsx' 
+import Homofobia from './Componentes/homofobia/homofobia.jsx'
 import Footer from './Componentes/footer.jsx'
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
         <DadosMisoginia />        
         <LeiMisoginia />  
         <ComoAgir4 />
+        <Homofobia />
 
       </main>
       <Footer />

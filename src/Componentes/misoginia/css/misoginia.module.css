@@ -60,3 +60,11 @@
     line-height: normal;
 }
 
+.misoginia_img {
+    width: 585px;
+    height: 595px;
+    flex-shrink: 0;
+    border-radius: 37px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+
