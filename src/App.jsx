@@ -16,6 +16,12 @@ import DadosTransfobia from './Componentes/transfobia/dados_transfobia.jsx'
 import ConsequenciaTransfobia from './Componentes/transfobia/consequencia_transfobia.jsx'
 import LeiTransfobia from './Componentes/transfobia/lei_transfobia.jsx'
 import ComoAgir3 from './Componentes/transfobia/comoagir3.jsx'
+import Misoginia from './Componentes/misoginia/misoginia.jsx'
+import DefinicaoMisoginia from './Componentes/misoginia/definicao_misoginia.jsx'
+import DadosMisoginia from './Componentes/misoginia/dados_misoginia.jsx'
+import ConsequenciaMisoginia from './Componentes/misoginia/consequencia_misoginia.jsx'
+import LeiMisoginia from './Componentes/misoginia/lei_misoginia.jsx'
+import ComoAgir4 from './Componentes/misoginia/comoagir4.jsx' 
 import Footer from './Componentes/footer.jsx'
 
 function App() {
@@ -23,9 +29,9 @@ function App() {
 
   return (
     <>
-     <Header />
-     <main>
-       
+      <Header />
+      <main>
+
         <Apresentacao />
         <Topicos />
         <Repertorio />
@@ -42,10 +48,14 @@ function App() {
         <ConsequenciaTransfobia />
         <LeiTransfobia />
         <ComoAgir3 />
+        <Misoginia />
+        <DefinicaoMisoginia />
+        <DadosMisoginia />        
+        <LeiMisoginia />  
+        <ComoAgir4 />
 
-
-    </main>
-     <Footer />
+      </main>
+      <Footer />
     </>
    
 
@@ -53,3 +63,4 @@ function App() {
 }
 
 export default App
+  

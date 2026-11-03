@@ -5,7 +5,7 @@ export default function DefinicaoTransfobia() {
                 <div className={Styles.definicao_transfobia_info}>
                     <div className={Styles.definicao_transfobia_info_tittle}>
                         <h2 className={Styles.h2_definicao_transfobia}>
-                            O QUE É TRANSFÓBIA?
+                            O QUE É TRANSFOBIA?
                         </h2>
                     </div>
     

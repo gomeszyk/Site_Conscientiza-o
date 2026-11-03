@@ -1,0 +1,62 @@
+.misoginia {
+    display: flex;
+    height: 754px;
+    padding: 93px 90px 66px 90px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #FFF;
+    background: #000;
+}
+
+.misoginia_info {
+    display: flex;
+    width: 1333px;
+    align-items: center;
+    gap: 17px;
+    flex-shrink: 0;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.misoginia_text {
+    display: flex;
+    width: 687px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+    flex-shrink: 0;
+}
+
+.tema03 {
+    align-self: stretch;
+    color: #A56BD9;
+    font-family: "Poppins";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.misoginia_titulo {
+    height: 131px;
+    align-self: stretch;
+    color: #A56BD9;
+    font-family: "Poppins";
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.misoginia_descricao {
+    height: 182px;
+    align-self: stretch;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
