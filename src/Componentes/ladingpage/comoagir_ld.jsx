@@ -1,5 +1,5 @@
-import Styles from './css/comoagir.module.css'
-export default function ComoAgir() {
+import Styles from './css/comoagirld.module.css'
+export default function ComoAgirLd() {
     return(
         <section className={Styles.comoagir}>
             <div className={Styles.comoagir_texto}>

@@ -1,0 +1,80 @@
+.definicao_homofobia {
+    display: flex;
+    width: 100%;
+    height: 470px;
+    padding: 63px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch;
+    background: #FFF;
+}
+
+.definicao_homofobia_info {
+    display: flex;
+    width: 1513px;
+    padding: 63px 97px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+    align-self: stretch;
+    background: #FFF;
+}
+
+.definicao_homofobia_info_tittle {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.h2_definicao_homofobia {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.definicao_homofobia_cards {
+    display: inline-flex;
+    height: 236px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-direction: row;
+}
+
+.homofobia_individual {
+    display: flex;
+    width: 386px;
+    height: 236px;
+    padding: 26px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    border: 2px solid #000;
+}
+
+.h3_cards_homofobia_individual {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p_cards_homofobia_individual {
+    color: #000;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

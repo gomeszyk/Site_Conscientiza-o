@@ -3,7 +3,7 @@ import Header from './Componentes/header.jsx'
 import Apresentacao from './Componentes/ladingpage/apresentacao.jsx'
 import Topicos from './Componentes/ladingpage/topicos.jsx'
 import Repertorio from './Componentes/ladingpage/repertorio.jsx'
-import ComoAgir from './Componentes/ladingpage/comoagir.jsx'
+import ComoAgirLd from './Componentes/ladingpage/comoagir_ld.jsx'
 import Racismo from './Componentes/racismo/racismo.jsx'
 import DefinicaoRacismo from './Componentes/racismo/definicao_racismo.jsx'
 import DadosRacismo from './Componentes/racismo/dados_racismo.jsx'
@@ -23,6 +23,12 @@ import ConsequenciaMisoginia from './Componentes/misoginia/consequencia_misogini
 import LeiMisoginia from './Componentes/misoginia/lei_misoginia.jsx'
 import ComoAgir4 from './Componentes/misoginia/comoagir4.jsx' 
 import Homofobia from './Componentes/homofobia/homofobia.jsx'
+import DefinicaoHomofobia from './Componentes/homofobia/definicao_homofobia.jsx'
+import DadosHomofobia from './Componentes/homofobia/dados_homofobia.jsx'
+import ConsequenciaHomofobia from './Componentes/homofobia/consequencia_homofobia.jsx'
+import LeiHomofobia from './Componentes/homofobia/lei_homofobia.jsx'
+import ComoAgir5 from './Componentes/homofobia/comoagir5.jsx'
+import ComoAgir from './Componentes/como_agir/comoagir.jsx'
 import Footer from './Componentes/footer.jsx'
 
 function App() {
@@ -36,7 +42,7 @@ function App() {
         <Apresentacao />
         <Topicos />
         <Repertorio />
-        <ComoAgir />
+        <ComoAgirLd />
         <Racismo />
         <DefinicaoRacismo />
         <DadosRacismo />
@@ -55,6 +61,13 @@ function App() {
         <LeiMisoginia />  
         <ComoAgir4 />
         <Homofobia />
+        <DefinicaoHomofobia />
+        <DadosHomofobia />
+        <ConsequenciaHomofobia />
+        <LeiHomofobia />
+        <ComoAgir5 />
+        <ComoAgir />
+
 
       </main>
       <Footer />

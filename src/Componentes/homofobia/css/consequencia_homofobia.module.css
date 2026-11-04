@@ -1,0 +1,200 @@
+.consequencia_homofobia {
+    display: flex;
+    height: 838px;
+    padding: 46px 69px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+
+.consequencia_homofobia_info {
+    display: flex;
+    width: 1354px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.consequencia_homofobia_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 9px;
+    align-self: stretch;
+}
+
+.consequencia_homofobia_texto_h2 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.consequencia_homofobia_texto_p1 {
+    color: #000;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.consequencia_homofobia_cards {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    align-self: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.consequencia_homofobia_card1 {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    align-self: stretch;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card_esconder {
+    display: flex;
+    width: 651.5px;
+    height: 229.5px;
+    padding: 45px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    border-radius: 30px;
+    background: #000;
+}
+
+.card_esconder_h2 {
+    width: 484px;
+    flex-shrink: 0;
+    color: #2FBF9B;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card_esconder_p {
+    width: 484px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card_medo_homofobia {
+    display: flex;
+    width: 651.5px;
+    height: 229.5px;
+    padding: 45px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    border-radius: 30px;
+    background: #000;
+}
+
+.card_medo_homofobia_h2 {
+    color: #2FBF9B;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card_medo_homofobia_p {
+    color: #FFF;
+    width: 484px;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.consequencia_homofobia_card2 {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    align-self: stretch;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card_rejeicao_homofobia {
+    display: flex;
+    width: 651.5px;
+    height: 233px;
+    padding: 45px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    border-radius: 30px;
+    background: #000;
+}
+
+.card_rejeicao_homofobia_h2 {
+    color: #2FBF9B;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card_rejeicao_homofobia_p {
+    width: 484px;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card_orgulho_homofobia {
+    display: flex;
+    width: 651.5px;
+    height: 233px;
+    padding: 45px 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 11px;
+    border-radius: 30px;
+    background: #000;
+}
+
+.card_orgulho_homofobia_h2 {
+    color: #2FBF9B;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card_orgulho_homofobia_p {
+    width: 484px;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

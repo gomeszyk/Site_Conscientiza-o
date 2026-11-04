@@ -14,7 +14,7 @@ export default function DefinicaoTransfobia() {
                             <h3 className={Styles.h3_cards_transfobia_individual}>
                                 Transfobia
                             </h3>
-    
+     
                             <p className={Styles.p_cards_transfobia_individual}>
                                 Discriminação, ódio ou violência contra pessoas trans: travestis, mulheres e homens trans e pessoas não binárias.
                             </p>

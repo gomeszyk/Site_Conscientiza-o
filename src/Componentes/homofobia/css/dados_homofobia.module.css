@@ -1,0 +1,86 @@
+.dados_homofobia {
+    display: flex;
+    height: 470px;
+    padding: 63px 97px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    background: #2FBF9B;
+}
+
+.dados_homofobia_info {
+    display: flex;
+    width: 1513px;
+    height: 370px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33px;
+}
+
+.dados_homofobia_h2 {
+    display: flex;
+    padding-right: 19px;
+    align-items: center;
+    align-self: stretch;
+}
+
+.dados_homofobia_h2_text {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dados_homofobia_numeros {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+    justify-content: space-between;
+}
+
+.vitima_homofobia {
+    display: flex;
+    width: 345px;
+    height: 228px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.vitima_homofobia_h2 {
+    width: 345px;
+    height: 119px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Poppins";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.vitima_homofobia_p1 {
+    width: 345px;
+    height: 79px;
+    color: #000;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.vitima_homofobia_fonte {
+    width: 345px;
+    height: 17px;
+    color: rgba(0, 0, 0, 0.70);
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
