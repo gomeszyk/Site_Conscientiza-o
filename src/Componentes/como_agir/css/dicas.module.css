@@ -1,0 +1,80 @@
+.dicas {
+    display: flex;
+    padding: 79px 118px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #F2A900;
+}
+
+.dicas_info {
+    display: flex;
+    width: 1333px;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.dicas_h2 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dicas_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    align-self: stretch;
+    flex-direction: row;
+    width: 100%;
+}
+
+.dicas_card {
+    display: flex;
+    padding: 12px 29.5px 4px 16.5px;
+    align-items: center;
+    border: 1px solid #000;
+    flex-direction: column;
+    height: 250px;
+    width: 400px;
+}
+
+.dicas_h3 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Inter";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.dicas_h4 {
+    align-self: stretch;
+    color: #000;
+    font-family: "Inter";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.dicas_p {
+    align-self: stretch;
+    color: #000;
+    font-family: "Inter";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
