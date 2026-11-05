@@ -7,12 +7,12 @@ function Header () {
             </div>
 
             <nav>
-                <p> <a href="#">Home</a></p>
-                <p> <a href="#">Racismo</a></p>
-                <p> <a href="#">Transfobia</a></p>
-                <p> <a href="#">Misogonia</a></p>
-                <p> <a href="#">Homofobia</a></p>
-                <p> <a href="#">Como Agir</a></p>
+                <p> <a href="/">Home</a></p>
+                <p> <a href="/racismo">Racismo</a></p>
+                <p> <a href="/transfobia">Transfobia</a></p>
+                <p> <a href="/misoginia">Misogonia</a></p>
+                <p> <a href="/homofobia">Homofobia</a></p>
+                <p> <a href="/como-agir">Como Agir</a></p>
             </nav>
         </header>
 

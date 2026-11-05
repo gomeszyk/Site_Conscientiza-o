@@ -49,7 +49,7 @@ function Topicos() {
                         </p>
 
                         <div className={Styles.card1_link}>
-                            <a href="#" className={Styles.card1_a}>
+                            <a href="/racismo" className={Styles.card1_a}>
                                 Entrar ↗
                             </a>
 
@@ -85,7 +85,7 @@ function Topicos() {
                         </p>
 
                         <div className={Styles.card2_link}>
-                            <a href="#" className={Styles.card2_a}>
+                            <a href="/transfobia" className={Styles.card2_a}>
                                 Entrar ↗
                             </a>
 
@@ -128,7 +128,7 @@ function Topicos() {
                         </p>
 
                         <div className={Styles.card3_link}>
-                            <a href="#" className={Styles.card3_a}>
+                            <a href="/misoginia" className={Styles.card3_a}>
                                 Entrar ↗
                             </a>
 
@@ -162,7 +162,7 @@ function Topicos() {
                         </p>
 
                         <div className={Styles.card4_link}>
-                            <a href="#" className={Styles.card4_a}>
+                            <a href="/homofobia" className={Styles.card4_a}>
                                 Entrar ↗
                             </a>
 

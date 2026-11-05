@@ -12,7 +12,7 @@ export default function ComoAgir4() {
             </div>
 
             <div className={Styles.comoagir4_botao}>
-                <a href="#" className={Styles.comoagir4_link}>
+                <a href="/como-agir" className={Styles.comoagir4_link}>
                     Veja como agir
                 </a>
             </div>

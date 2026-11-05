@@ -18,13 +18,13 @@ function Apresentacao() {
                     </p>
 
                     <div className={Styles.botoes}>
-                        <a href="#" className={Styles.entender}>
+                        <a href="/topicos" className={Styles.entender}>
                             <p className={Styles.entender_p}>
                                 Entender o preconceito
                             </p>
                         </a>
 
-                        <a href="#" className={Styles.agir}>
+                        <a href="/como-agir" className={Styles.agir}>
                             <p className={Styles.agir_p}>
                                 Como Agir
                             </p>
