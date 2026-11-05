@@ -32,11 +32,25 @@ export default function Footer() {
 
             <div className={Styles.footer2}>
 
-                
+                <div className={Styles.footer2_text}>
+                    <p className={Styles.footer_p2}>
+                        Projeto institucional por Gabriel Prado Gomes |  PROA 2026 | Dados de Outubro de 2026.
+                    </p>
 
-                <p className={Styles.footer_p2}>
-                    Projeto institucional por Gabriel Prado Gomes |  PROA 2026 | Dados de Outubro de 2026.
-                </p>
+                    <div className={Styles.footer2_contatos}>
+                        <p className={Styles.footer_p2}>
+                            Contatos:
+                        </p>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
 
                 <a href='#' className={Styles.footer_link}>
                     ↗ Voltar ao topo
