@@ -1,0 +1,134 @@
+.canais {
+    width: 1513px;
+    height: 1086px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.canais_info {
+    display: flex;
+    width: 1334px;
+    height: 846px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 79px;
+}
+
+
+.canais_info_texto_h2 {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.canais_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 83px;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+.card1 {
+    display: flex;
+    height: 330px;
+    justify-content: center;
+    align-items: center;
+    gap: 83px;
+    align-self: stretch;
+}
+
+.disk100 {
+    display: flex;
+    width: 389px;
+    height: 330px;
+    padding: 30px;
+    align-items: flex-start;
+    gap: 10px;
+    background: #000;
+}
+
+.disk100_info {
+    display: flex;
+    width: 334px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.disk100_texto_h3 {
+    color: #F2A900;
+    font-family: "Poppins";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.disk100_texto_h4 {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.disk100_texto_p {
+    width: 334px;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.canais_card2 {
+    display: flex;
+    height: 298px;
+    justify-content: center;
+    align-items: center;
+    gap: 106px;
+    align-self: stretch;
+    flex-direction: row;
+}
+
+.bo {
+    display: flex;
+    padding: 37px 22px 51.831px 38px;
+    justify-content: flex-end;
+    align-items: center;
+    background: #000;
+    flex-direction: column;
+}
+
+.bo_info {
+    display: flex;
+    width: 554px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 11px;
+    height: 200px;
+}
+
+.disk100_texto_p1 {
+    width: 554px;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

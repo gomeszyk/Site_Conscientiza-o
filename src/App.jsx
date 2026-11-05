@@ -29,6 +29,7 @@ import ConsequenciaHomofobia from './Componentes/homofobia/consequencia_homofobi
 import LeiHomofobia from './Componentes/homofobia/lei_homofobia.jsx'
 import ComoAgir5 from './Componentes/homofobia/comoagir5.jsx'
 import ComoAgir from './Componentes/como_agir/comoagir.jsx'
+import Canais from './Componentes/como_agir/canais.jsx'
 import Footer from './Componentes/footer.jsx'
 
 function App() {
@@ -67,6 +68,7 @@ function App() {
         <LeiHomofobia />
         <ComoAgir5 />
         <ComoAgir />
+        <Canais />
 
 
       </main>
