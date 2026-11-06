@@ -5,18 +5,17 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+
 }
 
 .footer1 {
-    width: 100%;
-    border-top: 1px solid #FFF;
-    background: #000;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    padding: 43px 78px;
-    background-color: #000;
+    width: 1514px;
+    height: 332px;
+    padding: 37px 79px;
+    align-items: flex-start;
+    gap: 102px;
+    flex-shrink: 0;
 }
 
 .div1 {
@@ -89,8 +88,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 43px 78px;
-    background-color: aquamarine;
+    padding: 74px;
+    background-color: #fff;
 }
 
 .footer2_text {
@@ -115,8 +114,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18px;
+    gap: 10px;
     flex-direction: row;
+}
+
+.footer_p3{
+    color: #000;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .footer_link {
@@ -126,8 +134,8 @@ footer {
     align-items: center;
     gap: 8px;
     border-radius: 10px;
-    border: 1px solid #FFF;
-    color: #FFF;
+    border: 1px solid #000000;
+    color: #000000;
     font-family: "Poppins";
     font-size: 18px;
     font-style: normal;
@@ -141,8 +149,8 @@ footer {
 }
 
 .footer_link:hover {
-    background: rgb(255, 255, 255);
-    color: #000;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
     transition: all 0.2s ease-in-out;
-    border: 2px solid #FFF;
+    border: 2px solid #000000;
 }

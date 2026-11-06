@@ -1,4 +1,8 @@
 header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: height 0.35s ease, padding 0.35s ease, background 0.35s ease, box-shadow 0.35s ease;
     display: flex;
     width: 100%;
     height: 98px;
@@ -48,6 +52,75 @@ p {
 
     & a:hover {
         color: #F2A900;
-        transition: 1.50s all;
     }
+}
+
+/* ---------- Header fixa + animações ---------- */
+.scrolled {
+    height: 72px;
+    background: rgba(0, 0, 0, 0.94);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+}
+
+.logo {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.03);
+}
+
+/* link do menu com sublinhado animado */
+.link {
+    position: relative;
+    display: inline-block;
+    transition: color 0.25s ease;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    border-radius: 3px;
+    background: #F2A900;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.link:hover::after {
+    transform: scaleX(1);
+}
+
+/* página atual: cor fixada */
+.active,
+p a.active:hover {
+    color: #F2A900;
+}
+
+.active::after {
+    transform: scaleX(1);
+}
+
+/* barra de progresso da leitura */
+.progress {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background: #F2A900;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    header, .link, .link::after, .logo { transition: none; }
 }

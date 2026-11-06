@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Styles from '../transfobia/css/comoagir3.module.css'
 export default function ComoAgir3() {
     return (
@@ -12,9 +13,9 @@ export default function ComoAgir3() {
             </div>
 
             <div className={Styles.comoagir3_botao}>
-                <a href="#" className={Styles.comoagir3_link}>
+                <Link to="/como-agir" className={Styles.comoagir3_link}>
                     Veja como agir
-                </a>
+                </Link>
             </div>
         </section>
     )

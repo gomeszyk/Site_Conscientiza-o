@@ -1,81 +1,40 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './App.css'
 import Header from './Componentes/header.jsx'
-import Apresentacao from './Componentes/ladingpage/apresentacao.jsx'
-import Topicos from './Componentes/ladingpage/topicos.jsx'
-import Repertorio from './Componentes/ladingpage/repertorio.jsx'
-import ComoAgirLd from './Componentes/ladingpage/comoagir_ld.jsx'
-import Racismo from './Componentes/racismo/racismo.jsx'
-import DefinicaoRacismo from './Componentes/racismo/definicao_racismo.jsx'
-import DadosRacismo from './Componentes/racismo/dados_racismo.jsx'
-import ConsequenciaRacismo from './Componentes/racismo/consequencia_racismo.jsx'
-import LeiRacismo from './Componentes/racismo/lei_racismo.jsx'
-import ComoAgir2 from './Componentes/racismo/comoagir2.jsx'
-import Transfobia from './Componentes/transfobia/transfobia.jsx'
-import DefinicaoTransfobia from './Componentes/transfobia/definacao_transfobia.jsx'
-import DadosTransfobia from './Componentes/transfobia/dados_transfobia.jsx'
-import ConsequenciaTransfobia from './Componentes/transfobia/consequencia_transfobia.jsx'
-import LeiTransfobia from './Componentes/transfobia/lei_transfobia.jsx'
-import ComoAgir3 from './Componentes/transfobia/comoagir3.jsx'
-import Misoginia from './Componentes/misoginia/misoginia.jsx'
-import DefinicaoMisoginia from './Componentes/misoginia/definicao_misoginia.jsx'
-import DadosMisoginia from './Componentes/misoginia/dados_misoginia.jsx'
-import ConsequenciaMisoginia from './Componentes/misoginia/consequencia_misoginia.jsx'
-import LeiMisoginia from './Componentes/misoginia/lei_misoginia.jsx'
-import ComoAgir4 from './Componentes/misoginia/comoagir4.jsx' 
-import Homofobia from './Componentes/homofobia/homofobia.jsx'
-import DefinicaoHomofobia from './Componentes/homofobia/definicao_homofobia.jsx'
-import DadosHomofobia from './Componentes/homofobia/dados_homofobia.jsx'
-import ConsequenciaHomofobia from './Componentes/homofobia/consequencia_homofobia.jsx'
-import LeiHomofobia from './Componentes/homofobia/lei_homofobia.jsx'
-import ComoAgir5 from './Componentes/homofobia/comoagir5.jsx'
-import ComoAgir from './Componentes/como_agir/comoagir.jsx'
-import Canais from './Componentes/como_agir/canais.jsx'
-import Dicas from './Componentes/como_agir/dicas.jsx'
-import ComoAgir6 from './Componentes/como_agir/comoagir6.jsx'
+import Home from './Componentes/ladingpage/home.jsx'
+import PageRacismo from './Componentes/racismo/page_racismo.jsx'
+import PageTransfobia from './Componentes/transfobia/page_transfobia.jsx'
+import PageMisoginia from './Componentes/misoginia/page_misoginia.jsx'
+import PageHomofobia from './Componentes/homofobia/page_homofobia.jsx'
+import PageComoAgir from './Componentes/como_agir/page_comoagir.jsx'
 import Footer from './Componentes/footer.jsx'
+import ScrollEffects from './Componentes/animacoes/scrolleffects.jsx'
 
 function App() {
 
 
   return (
     <>
+    <Router>
+      <ScrollEffects />
       <Header />
+      
       <main>
+        <Routes>
 
-        <Apresentacao />
-        <Topicos />
-        <Repertorio />
-        <ComoAgirLd />
-        <Racismo />
-        <DefinicaoRacismo />
-        <DadosRacismo />
-        <ConsequenciaRacismo />
-        <LeiRacismo />
-        <ComoAgir2 />
-        <Transfobia />
-        <DefinicaoTransfobia />
-        <DadosTransfobia />
-        <ConsequenciaTransfobia />
-        <LeiTransfobia />
-        <ComoAgir3 />
-        <Misoginia />
-        <DefinicaoMisoginia />
-        <DadosMisoginia />        
-        <LeiMisoginia />  
-        <ComoAgir4 />
-        <Homofobia />
-        <DefinicaoHomofobia />
-        <DadosHomofobia />
-        <ConsequenciaHomofobia />
-        <LeiHomofobia />
-        <ComoAgir5 />
-        <ComoAgir />
-        <Canais />
-        <Dicas />
-        <ComoAgir6 />
+        <Route path="/" element={<Home />} />
+        <Route path="/racismo" element={<PageRacismo />} />
+        <Route path="/transfobia" element={<PageTransfobia />} />
+        <Route path="/misoginia" element={<PageMisoginia />} />
+        <Route path="/homofobia" element={<PageHomofobia />} />
+        <Route path="/como-agir" element={<PageComoAgir />} />
 
+        </Routes>
       </main>
+      
       <Footer />
+    </Router>
+      
     </>
    
 

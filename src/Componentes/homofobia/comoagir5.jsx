@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Styles from '../homofobia/css/comoagir5.module.css'
 export default function ComoAgir5() {
     return (
@@ -12,9 +13,9 @@ export default function ComoAgir5() {
             </div>
 
             <div className={Styles.comoagir5_botao}>
-                <a href="#" className={Styles.comoagir5_link}>
+                <Link to="/como-agir" className={Styles.comoagir5_link}>
                     Veja como agir
-                </a>
+                </Link>
             </div>
         </section>
     )

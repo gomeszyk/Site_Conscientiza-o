@@ -2,6 +2,8 @@ import Styles from './css/footer.module.css'
 import Temas from '../assets/img/temas_footer.png'
 import Disk from '../assets/img/disk_footer.png'
 import Fontes from '../assets/img/fontes_footer.png'
+import Linkedin from '../assets/img/linkedin.png'
+import GitHub from '../assets/img/github.png'
 export default function Footer() {
     return (
         <footer>
@@ -38,10 +40,17 @@ export default function Footer() {
                     </p>
 
                     <div className={Styles.footer2_contatos}>
-                        <p className={Styles.footer_p2}>
+                        <p className={Styles.footer_p3}>
                             Contatos:
                         </p>
 
+                        <a href='https://www.linkedin.com/in/gabriel-prado-gomess' target="_blank" rel="noopener noreferrer" className={Styles.iconelinkedin}>
+                            <img src={Linkedin} alt="linkedin" className={Styles.linkedin} /> 
+                        </a>
+
+                        <a href='https://github.com/gomeszyk' target="_blank" rel="noopener noreferrer" className={Styles.iconelinkedin}>
+                            <img src={GitHub} alt="github" className={Styles.linkedin} /> 
+                        </a>
 
 
                     </div>
@@ -52,7 +61,7 @@ export default function Footer() {
 
 
 
-                <a href='#' className={Styles.footer_link}>
+                <a href='#' className={Styles.footer_link} onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) }}>
                     ↗ Voltar ao topo
                 </a>
 

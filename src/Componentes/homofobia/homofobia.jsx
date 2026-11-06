@@ -1,3 +1,4 @@
+import SplitText from '../animacoes/SplitText'
 import Styles from '../homofobia/css/homofobia.module.css'
 import Alan from '../../assets/img/img_homofobia.png'
 
@@ -9,9 +10,7 @@ export default function Homofobia() {
                     <h2 className={Styles.tema04}>
                         TEMA 04
                     </h2>
-                    <h2 className={Styles.homofobia_titulo}>
-                        HOMOFOBIA
-                    </h2>
+                    <SplitText as="h2" className={Styles.homofobia_titulo} text="HOMOFOBIA" delay={150} />
                     <p className={Styles.homofobia_descricao}>
                         Amar não é crime. Mas amar a pessoa “errada” ainda pode custar a casa, o emprego, a família e a segurança.
                     </p>

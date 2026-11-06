@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Styles from '../misoginia/css/comoagir4.module.css'
 export default function ComoAgir4() {
     return (
@@ -12,9 +13,9 @@ export default function ComoAgir4() {
             </div>
 
             <div className={Styles.comoagir4_botao}>
-                <a href="#" className={Styles.comoagir4_link}>
+                <Link to="/como-agir" className={Styles.comoagir4_link}>
                     Veja como agir
-                </a>
+                </Link>
             </div>
         </section>
     )

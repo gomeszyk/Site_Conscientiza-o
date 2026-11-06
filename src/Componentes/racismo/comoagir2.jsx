@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Styles from '../racismo/css/comoagir2.module.css'
 export default function ComoAgir2() {
     return(
@@ -12,9 +13,9 @@ export default function ComoAgir2() {
                     </div>
         
                     <div className={Styles.comoagir2_botao}>
-                        <a href="#" className={Styles.comoagir2_link}>
+                        <Link to="/como-agir" className={Styles.comoagir2_link}>
                             Veja como agir
-                        </a>
+                        </Link>
                     </div>
                 </section>
     )

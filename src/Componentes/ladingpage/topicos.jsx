@@ -1,11 +1,12 @@
+import { Link } from 'react-router-dom'
 import Styles from './css/topicos.module.css'
 import Frame from '../../assets/img/Frame 22.png'
 
 function Topicos() {
     return (
-        <section className={Styles.topicos}>
+        <section id="topicos" className={Styles.topicos}>
 
-            <div className={Styles.topicos_textos}>
+            <div className={Styles.topicos_textos} data-reveal>
 
                 <div className={Styles.topicos_texto1}>
                     <h2 className={Styles.topicos_h2}>
@@ -22,7 +23,7 @@ function Topicos() {
             </div>
 
             <div className={Styles.topicos_cards}>
-                <div className={Styles.topicos_card1}>
+                <div className={Styles.topicos_card1} data-reveal data-delay="0">
                     <div className={Styles.card1_info}>
                         <p className={Styles.number1}>
                             01
@@ -49,16 +50,16 @@ function Topicos() {
                         </p>
 
                         <div className={Styles.card1_link}>
-                            <a href="#" className={Styles.card1_a}>
+                            <Link to="/racismo" className={Styles.card1_a}>
                                 Entrar ↗
-                            </a>
+                            </Link>
 
                         </div>
                     </div>
 
                 </div>
 
-                <div className={Styles.topicos_card2}>
+                <div className={Styles.topicos_card2} data-reveal data-delay="120">
                     <div className={Styles.card2_info}>
                         <p className={Styles.number2}>
                             02
@@ -85,9 +86,9 @@ function Topicos() {
                         </p>
 
                         <div className={Styles.card2_link}>
-                            <a href="#" className={Styles.card2_a}>
+                            <Link to="/transfobia" className={Styles.card2_a}>
                                 Entrar ↗
-                            </a>
+                            </Link>
 
                         </div>
 
@@ -101,7 +102,7 @@ function Topicos() {
 
             <div className={Styles.topicos_cardsbaixo}>
 
-                <div className={Styles.topicos_card3}>
+                <div className={Styles.topicos_card3} data-reveal data-delay="0">
                     <div className={Styles.card3_info}>
                         <p className={Styles.number3}>
                             03
@@ -128,15 +129,15 @@ function Topicos() {
                         </p>
 
                         <div className={Styles.card3_link}>
-                            <a href="#" className={Styles.card3_a}>
+                            <Link to="/misoginia" className={Styles.card3_a}>
                                 Entrar ↗
-                            </a>
+                            </Link>
 
                         </div>
                     </div>
                 </div>
 
-                <div className={Styles.topicos_card4}>
+                <div className={Styles.topicos_card4} data-reveal data-delay="120">
                     <div className={Styles.card4_info}>
                         <p className={Styles.number4}>
                             04
@@ -162,9 +163,9 @@ function Topicos() {
                         </p>
 
                         <div className={Styles.card4_link}>
-                            <a href="#" className={Styles.card4_a}>
+                            <Link to="/homofobia" className={Styles.card4_a}>
                                 Entrar ↗
-                            </a>
+                            </Link>
 
                         </div>
                     </div>

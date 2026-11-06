@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import Styles from './css/comoagirld.module.css'
 export default function ComoAgirLd() {
     return(
@@ -12,9 +13,9 @@ export default function ComoAgirLd() {
             </div>
 
             <div className={Styles.comoagir_botao}>
-                <a href="#" className={Styles.comoagir_link}>
+                <Link to="/como-agir" className={Styles.comoagir_link}>
                     Veja como agir
-                </a>
+                </Link>
             </div>
         </section>
     )
