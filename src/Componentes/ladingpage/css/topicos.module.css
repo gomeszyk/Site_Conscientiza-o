@@ -1,6 +1,5 @@
 .topicos {
     display: flex;
-    width: 100%;
     height: auto;
     padding: 75px 97px;
     flex-direction: column;
@@ -11,7 +10,7 @@
 
 .topicos_textos {
     display: flex;
-    width: 50%;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;

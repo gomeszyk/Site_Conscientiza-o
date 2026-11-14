@@ -43,3 +43,318 @@ main > section:first-child img {
     main > section:first-child,
     main > section:first-child img { animation: none; }
 }
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        height: auto !important;
+        min-height: 72px;
+        padding: 16px 20px !important;
+        gap: 16px !important;
+        justify-content: space-between !important;
+        flex-wrap: wrap !important;
+    }
+
+    header .name,
+    header .name h2 {
+        font-size: 24px;
+    }
+
+    header nav {
+        width: 100% !important;
+        justify-content: center !important;
+        gap: 16px !important;
+        flex-wrap: wrap !important;
+    }
+
+    header nav p {
+        font-size: 16px;
+    }
+
+    main > section {
+        width: 100% !important;
+        min-width: 0;
+        height: auto !important;
+        min-height: 0;
+        padding: 48px 20px !important;
+    }
+
+    main > section > div,
+    main > section [class*="_info"],
+    main > section [class*="_text"],
+    main > section [class*="_texto"],
+    main > section [class*="_imagem"],
+    main > section [class*="_img"] {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto !important;
+        min-width: 0;
+    }
+
+    main section *,
+    footer * {
+        max-width: 100%;
+    }
+
+    main section img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    [class*="apresentacao"],
+    [class*="home1fundo"],
+    [class*="repertorio"],
+    [class*="comoagir_info"],
+    [class*="canais_card"],
+    [class*="card1"],
+    [class*="card2"],
+    [class*="card3"],
+    [class*="card4"],
+    [class*="cardsbaixo"],
+    [class*="topicos_cards"] {
+        flex-direction: column !important;
+    }
+
+    [class*="home1text"] {
+        gap: 24px;
+    }
+
+    [class*="home1text"] h1 {
+        height: auto !important;
+        font-size: clamp(42px, 13vw, 64px) !important;
+        line-height: 1.05 !important;
+    }
+
+    [class*="home1p"] {
+        font-size: 20px;
+    }
+
+    [class*="botoes"] {
+        width: 100%;
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    [class*="entender"],
+    [class*="agir"] {
+        width: 100%;
+        height: 64px;
+    }
+
+    [class*="entender_p"],
+    [class*="agir_p"] {
+        font-size: 19px;
+    }
+
+    [class*="home1img"] {
+        margin: 24px 0 0;
+    }
+
+    [class*="home1img"] img {
+        height: 300px;
+        border-radius: 24px;
+    }
+
+    [class*="repertorio_texto"],
+    [class*="repertorio_imagem"] {
+        gap: 14px;
+    }
+
+    [class*="repertorio_titulo"],
+    [class*="comoagir_titulo"],
+    [class*="comoagir_titulo2"],
+    [class*="canais_info_texto_h2"] {
+        font-size: 32px;
+        line-height: 1.15;
+    }
+
+    [class*="repertorio_paragrafo"] {
+        width: 100%;
+        font-size: 19px;
+    }
+
+    [class*="topicos_texto1"],
+    [class*="topicos_texto2"] {
+        width: 100%;
+    }
+
+    [class*="topicos_h2"] {
+        font-size: 28px;
+    }
+
+    [class*="topicos_p"] {
+        font-size: 17px;
+    }
+
+    [class*="topicos_cards"],
+    [class*="topicos_cardsbaixo"] {
+        gap: 20px;
+    }
+
+    [class*="topicos_card"] {
+        width: 100% !important;
+        min-height: 400px;
+        padding: 30px 24px;
+        border-radius: 22px;
+    }
+
+    [class*="card1_p1"],
+    [class*="card1_p2"],
+    [class*="card2_p1"],
+    [class*="card2_p2"],
+    [class*="card3_p1"],
+    [class*="card3_p2"],
+    [class*="card4_p1"],
+    [class*="card4_p2"],
+    [class*="card_marco"] {
+        font-size: 18px;
+    }
+
+    [class*="comoagir_botao"] {
+        width: 100%;
+        padding: 18px 10px;
+    }
+
+    [class*="comoagir_link"] {
+        font-size: 24px;
+    }
+
+    [class*="comoagir_img"] {
+        min-height: 300px;
+        border-radius: 24px;
+        background-position: center;
+    }
+
+    [class*="canais_info"] {
+        gap: 36px;
+    }
+
+    [class*="disk100"],
+    [class*="bo"] {
+        width: 100% !important;
+        height: auto;
+        min-height: 220px;
+        padding: 24px;
+    }
+
+    [class*="disk100_info"],
+    [class*="bo_info"],
+    [class*="disk100_texto_p"],
+    [class*="disk100_texto_p1"] {
+        width: 100% !important;
+    }
+
+    [class*="disk100_texto_h3"] {
+        font-size: 36px;
+    }
+
+    [class*="disk100_texto_h4"] {
+        font-size: 20px;
+    }
+
+    [class*="disk100_texto_p"],
+    [class*="disk100_texto_p1"] {
+        font-size: 18px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer [class*="footer1"] {
+        width: 100%;
+        height: auto;
+        padding: 36px 20px;
+        gap: 28px;
+        flex-wrap: wrap;
+    }
+
+    footer [class*="div1"],
+    footer [class*="div2"],
+    footer [class*="div3"],
+    footer [class*="div4"] {
+        width: calc(50% - 14px);
+    }
+
+    footer [class*="footer2"] {
+        height: auto;
+        padding: 28px 20px;
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer [class*="footer2_text"],
+    footer [class*="footer_p2"] {
+        width: 100%;
+    }
+
+    footer [class*="footer_p2"],
+    footer [class*="footer_p3"] {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        align-items: flex-start;
+    }
+
+    header nav {
+        justify-content: flex-start;
+    }
+
+    main > section {
+        padding: 36px 16px !important;
+    }
+
+    [class*="topicos_card"] {
+        min-height: 360px;
+        padding: 24px 20px;
+    }
+
+    footer [class*="div1"],
+    footer [class*="div2"],
+    footer [class*="div3"],
+    footer [class*="div4"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    main > section > div,
+    main > section > div > div,
+    main > section > div > div > div {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 0 !important;
+        height: auto !important;
+        min-height: 0;
+        flex-direction: column !important;
+    }
+
+    main > section h1 {
+        height: auto !important;
+        max-width: 100%;
+        font-size: clamp(42px, 13vw, 64px) !important;
+        line-height: 1.05 !important;
+    }
+
+    main > section h2,
+    main > section h3,
+    main > section h4,
+    main > section p {
+        max-width: 100%;
+        height: auto !important;
+    }
+
+    main > section img {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
