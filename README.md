@@ -9,6 +9,10 @@
 
 </div>
 
+## 🌐 Demonstração online
+
+[Acessar o site de conscientização](https://site-conscientiza-o.vercel.app/)
+
 ## 💡 Sobre o projeto
 
 Interface web dedicada à conscientização sobre **racismo, transfobia, misoginia e homofobia**, com informações, dados, referências e orientações para agir.
